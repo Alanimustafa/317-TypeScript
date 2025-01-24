@@ -2,9 +2,11 @@
   "name": "317-typescript",
   "version": "1.0.0",
   "description": "alab-working-with-typescript",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
   },
   "author": "Mustafa Alani",
   "license": "ISC",
